@@ -1,0 +1,19 @@
+{
+  "name": "wind-skill-keypool-hanger",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Loose-coupled key pool hanger for Wind MCP skill.",
+  "bin": {
+    "wind-keypool-mount": "./bin/mount.mjs",
+    "wind-keypool-unmount": "./bin/unmount.mjs"
+  },
+  "scripts": {
+    "mount": "node ./bin/mount.mjs",
+    "unmount": "node ./bin/unmount.mjs",
+    "test": "node ./test/run-tests.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
